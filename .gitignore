@@ -1,0 +1,14 @@
+*.aux
+main.synctex.gz
+main.synctex(busy)
+main.lol
+main.bbl
+main.blg
+main.fdb_latexmk
+main.fls
+main.lof
+main.log
+main.lot
+main.out
+main.toc
+__latexindent_temp.tex

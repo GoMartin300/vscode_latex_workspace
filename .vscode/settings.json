@@ -1,0 +1,71 @@
+{
+  "workbench.colorTheme": "Atom One Light",
+  "files.autoSave": "afterDelay",
+  "editor.minimap.enabled": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  
+  "latex-workshop.view.pdf.viewer": "tab",
+  "latex-workshop.latex.autoClean.run": "onFailed",
+  "latex-workshop.latex.autoBuild.run": "never",
+  "[latex]": {
+      "editor.formatOnPaste": false,
+      "editor.formatOnSave": false,
+      "editor.suggestSelection": "recentlyUsedByPrefix",
+      "editor.wordWrap": "on",
+      "editor.wordBasedSuggestions": false,
+      "editor.suggest.showReferences": true,
+      "editor.suggest.showEnumMembers": true,
+      "editor.suggest.showModules": true,
+      "editor.suggest.showEnums": true,
+      "editor.suggest.showSnippets": true,
+      "editor.suggest.showFolders": true,
+      "editor.suggest.showFiles": true
+  },
+  "cSpell.language": "en",
+  "cSpell.allowCompoundWords": false,
+  "": false,
+  "cSpell.ignorePaths": [
+    "Title.tex",
+    "listings_settings.tex",
+    "**/package-lock.json",
+    "**/node_modules/**",
+    "**/vscode-extension/**",
+    "**/.git/objects/**",
+    ".vscode",
+    "**/main.tex",
+    "format_guidelines.txt",
+    "master_report_template/**",
+    "__latexindent_temp.tex"
+  ],
+  "cSpell.words": [
+    "armv",
+    "gunicorn",
+    "mavlink",
+    "mavrouter",
+    "mavsdk",
+    "pixhawk",
+    "raspbian"
+  ],
+
+  "todohighlight.include": [
+    "**/*.js",
+    "**/*.jsx",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.html",
+    "**/*.php",
+    "**/*.css",
+    "**/*.scss",
+    "**/*.tex"
+  ],
+  "todohighlight.isEnable": true,
+
+  "TodoParser": {
+    "exclude": ["aux", "log", "toc", "out", "fls"],
+    "showInProblems": false,
+    "markers": [
+      ["TODO:","Warning"],
+      ["FIXME:","Warning"]
+    ]
+  }
+}

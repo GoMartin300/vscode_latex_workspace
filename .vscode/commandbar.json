@@ -1,0 +1,17 @@
+{
+  "skipTerminateQuickPick": true,
+  "skipSwitchToOutput": true,
+  "skipErrorMessage": true,
+  "commands": [
+    {
+      "text": "List TODOs",
+      "tooltip": "Prints all the highlighted todo instances in the entire project.",
+      "color": "black",
+      "commandType": "palette",
+      "command": "todohighlight.listAnnotations",
+      "alignment": "left",
+      "skipTerminateQuickPick": false,
+      "priority": 0
+    }
+  ]
+}
