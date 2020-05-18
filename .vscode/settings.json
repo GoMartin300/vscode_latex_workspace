@@ -59,13 +59,16 @@
     "**/*.tex"
   ],
   "todohighlight.isEnable": true,
-
-  "TodoParser": {
-    "exclude": ["aux", "log", "toc", "out", "fls"],
-    "showInProblems": false,
-    "markers": [
-      ["TODO:","Warning"],
-      ["FIXME:","Warning"]
-    ]
-  }
+  "todohighlight.isCaseSensitive":false //makes todo: work as well.
+  /* 
+  Using the setting below, one can add a custom marker, usefull in collaboration when assigning TODOs to specific people.
+  */
+  
+  // "todohighlight.keywords":[
+  //   {
+  //     "text": "CUSTOM:",
+  //     "color": "#000000",
+  //     "backgroundColor": "#ff98CE"
+  //   }
+  // ]
 }

@@ -1,6 +1,10 @@
+[\\]: <> (
+    cSpell:words TODOs
+    )
+
 # vscode_latex_workspace
 
-A minimal workspace that sets up vs-code to become a pleasant Latex development environment. This template only takes care of Visual Studio Code, you still need to make sure you have a Latex distribution and creat your own Latex structure.
+A minimal workspace that sets up vs-code to become a pleasant Latex development environment. This template only takes care of Visual Studio Code, you still need to make sure you have a Latex distribution and create your own Latex structure.
 
 ## Getting started
 
@@ -16,7 +20,11 @@ to stop cspell from giving a warning for a special word such as Ug-Three or ARMv
 % cspell:words Ug-Three, ARMv6
 ```
 
-## TODO's
+## TODO highlighting
 
-To prevent accidentally leaving visible TODO's in your document, this workspace highlights commented out TODO's.
-Additionally you can list all the todo's in your document by pressing the List TODOs button in the bottom bar of vscode.
+To prevent accidentally leaving visible TODOs in your document, this workspace highlights commented out TODOs.
+Additionally you can list all the TODOs in your document by pressing the List TODOs button in the bottom bar of vscode.
+
+### Custom markers
+
+By following the instructions in the /.vscode/settings.json file, one can add custom markers, useful to diversify TODOs based on type, severity, work load, ...
